@@ -22,7 +22,12 @@ mvn install # IntelliJ Idea has a maven run configuration, you can use that as w
 
 
 
-Nevermind, creating an Archetype sucks. Way too many steps and requires all sorts of software.
+Creating an Archetype sucks. Way too many steps and requires all sorts of software.
+
+- Sonatype
+- Public key
+- Bad documentation
+- etc.
 
 
 
@@ -34,3 +39,10 @@ Leaving a bunch of links for myself here
 - [Maven Central Repo](https://mvnrepository.com/repos/sonatype-releases)
 - [Sonatype Guide](https://central.sonatype.org/pages/ossrh-guide.html)
 - [Ticket](https://issues.sonatype.org/browse/OSSRH-48186)
+
+
+
+```
+mvn deploy --settings settings.xml
+```
+
