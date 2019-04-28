@@ -5,7 +5,7 @@
 		http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
 		xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		name="quickstart">
+		name="javaee-archetype">
 	<fileSets>
         <fileSet filtered="true" packaged="false" encoding="UTF-8">
             <directory>src/main/java</directory>
