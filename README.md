@@ -2,12 +2,12 @@
 
 ## Installing
 
+```
+git clone https://github.com/stefnotch/javaee-archetype.git
+mvn install # IntelliJ Idea has a maven run configuration, you can use that as well
+```
 
-
-
-
-
-
+## Info
 
 
 **Group id:** `com.github.stefnotch`
