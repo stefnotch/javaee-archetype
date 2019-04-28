@@ -1,5 +1,25 @@
 # A simple JavaEE Archetype
 
+## Installing
+
+
+
+
+
+
+
+
+
+**Group id:** `com.github.stefnotch`
+
+**Artifact id:** `javaee-archetype`
+
+**Version:** `0.0.2`
+
+
+
+![1556468463742](C:\Users\Stefnotch\Documents\GitHub\School\javaee-archetype\screenshot.png)
+
 
 
 Nevermind, creating an Archetype sucks. Way too many steps and requires all sorts of software.
