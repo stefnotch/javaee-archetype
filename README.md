@@ -43,6 +43,6 @@ Leaving a bunch of links for myself here
 
 
 ```
-mvn deploy --settings settings.xml
+mvn clean deploy --settings settings.xml
 ```
 
