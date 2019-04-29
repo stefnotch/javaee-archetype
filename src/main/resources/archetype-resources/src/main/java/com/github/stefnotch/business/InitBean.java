@@ -7,18 +7,27 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.time.LocalDate;
 
-@Startup
-@Singleton
+//@Startup
+//@Singleton
+
+@ApplicationScoped
 public class InitBean {
-    @PersistenceContext
-    EntityManager em;
+    //@PersistenceContext
+    //EntityManager em;
+
+    //@Inject
+    //Dao dao
 
     public InitBean() {
 
     }
 
-    @PostConstruct
+    private void init(@Observes @Initialized(ApplicationScoped.class) Object ini) {
+        // init code
+    }
+
+    /*@PostConstruct
     private void init() {
         
-    }
+    }*/
 }
