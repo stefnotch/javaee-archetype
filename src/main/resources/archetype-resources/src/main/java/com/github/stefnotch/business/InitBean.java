@@ -3,10 +3,15 @@ package com.github.stefnotch.business;
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.Initialized;
+import javax.enterprise.event.Observes;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.time.LocalDate;
 
+// Old way?
 //@Startup
 //@Singleton
 
@@ -15,8 +20,7 @@ public class InitBean {
     //@PersistenceContext
     //EntityManager em;
 
-    //@Inject
-    //Dao dao
+    //@Inject your DAOs here
 
     public InitBean() {
 
@@ -26,6 +30,7 @@ public class InitBean {
         // init code
     }
 
+    // Old way?
     /*@PostConstruct
     private void init() {
         
