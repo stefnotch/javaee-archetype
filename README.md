@@ -14,11 +14,11 @@ mvn install # IntelliJ Idea has a maven run configuration, you can use that as w
 
 **Artifact id:** `javaee-archetype`
 
-**Version:** `0.0.2`
+**Version:** `0.0.4`
 
 
 
-![1556468463742](C:\Users\Stefnotch\Documents\GitHub\School\javaee-archetype\screenshot.png)
+![1556468463742](screenshot.png)
 
 
 
