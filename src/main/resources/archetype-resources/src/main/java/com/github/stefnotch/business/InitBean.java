@@ -1,4 +1,4 @@
-package com.github.stefnotch;
+package com.github.stefnotch.business;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;

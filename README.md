@@ -25,6 +25,7 @@ mvn install # IntelliJ Idea has a maven run configuration, you can use that as w
 Creating an Archetype sucks. Way too many steps and requires all sorts of software.
 
 - Sonatype
+- Shitty password rules
 - Public key
 - Bad documentation
 - etc.

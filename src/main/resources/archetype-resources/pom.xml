@@ -28,6 +28,13 @@
             <artifactId>apiee-core</artifactId>
             <version>1.0.8</version>
         </dependency>-->
+
+        <!--For the XmlAdapter-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>${artifactId}</finalName>

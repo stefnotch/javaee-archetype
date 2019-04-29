@@ -1,4 +1,4 @@
-package com.github.stefnotch;
+package com.github.stefnotch.business;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -49,5 +49,14 @@ public abstract class AbstractDao<T> {
 
     public void delete(T entity) {
         em.remove(entity);
+    }
+
+    public void flushAndRefresh(T entity) {
+        em.flush(); // Force save to database
+        em.refresh(entity); // Refresh entity from database
+    }
+
+    public EntityManager getEntityManager() {
+        return em;
     }
 }

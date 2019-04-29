@@ -7,7 +7,7 @@
     </parent>
     <groupId>com.github.stefnotch</groupId>
     <artifactId>javaee-archetype</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>javaee-archetype</name>
     <description>JavaEE 11 Archetype.</description>
     <url>https://github.com/stefnotch/javaee-archetype</url>
